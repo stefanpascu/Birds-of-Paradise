@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include('../template/head')-%>
+
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 50%;
+    }
+
+    td,
+    th {
+      border: 2px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    li:nth-of-type(1) {
+      font-style: italic;
+    }
+
+    li:nth-of-type(5) {
+      font-style: italic;
+    }
+
+    #container {
+      width: 0px;
+      height: 0px;
+      left: 800px;
+      top: 130px;
+      position: relative;
+      background: none;
+    }
+
+    #animate {
+      position: absolute;
+      width: 90px;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('../template/dropdown')-%>
+  <h1>Bibliography and Special Thanks</h1>
+
+  <div id="container">
+    <img src="images/heart.png" alt="The image could not load." id="animate">
+  </div>
+
+  <h3>We would like to thank all the websites and their patrons who made possible creating this website:</h3>
+  <table>
+    <tr>
+      <td><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></td>
+      <td>For their unlimited knowledge resources</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.nationalgeographic.com/news/2018/04/new-species-birds-of-paradise-animals-spd/">National
+          Geographic</a></td>
+      <td>For their information of the Superb Vogelkop Bird of Paradise</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.youtube.com/user/LabofOrnithology">Cornell Lab of Ornithology</a></td>
+      <td>For their video resources of the Magnificent Riflebird and the Lesser Bird of Paradise</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.youtube.com/user/netflixuk">Netflix</a></td>
+      <td>For their video resources of the Western Parotia</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.google.ro/?&bih=627&biw=1326&client=opera&hs=Q9W&hl=ro">Google</a> and <a
+          href="https://www.pinterest.es">Pinterest</a></td>
+      <td>For their image resources</td>
+    </tr>
+  </table>
+  <h3> We would also like to thank <a href="https://www.w3schools.com/default.asp">w3schools</a> for their share of
+    knowledge in css, html and javascript.
+  </h3>
+  <%- include('../template/footer')-%>
+  <script src="js/BibliographyScript.js"></script>
+</body>
+
+</html>

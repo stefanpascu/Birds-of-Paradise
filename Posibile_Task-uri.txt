@@ -1,0 +1,52 @@
+1. Realizarea unei animatii mai complexe prin javascript. Exemple de animatii posibile:
+ 
+a) deplasarea unui element in pagina pe o traiectorie circulara sau eliptica
+b) deplasarea unui obiect pe o linie franta inchisa/deschisa
+(1.5 p)
+------------------> DONE (la bibliografie)
+
+4. Durata executie. Sa se calculeze durata de executie pentru o secventa de cod (de exemplu cat a durat 
+generarea unor date tabelare calculate prin aplicarea unor formule, sau orice secventa mai complexa de cod), 
+respectiv timpul intre doua evenimente (de exemplu: a durat 3 secunde de cand utilizatorul a intrat pe pagina 
+si a dat primul scroll sau a facut primul click)
+(0.5 p)
+------------------> DONE (la quiz)
+
+1. Varsta utilizator. Va exista in pagina, la inceput, un singur input in care un utilizator isi poate trece data 
+nasterii sub forma zi#luna#an (de exemplu 20#03#2001). La click pe un buton se va afisa imediat sub input varsta 
+utilizatoului in ani, luni si zile, ore minute secunde ( de exemplu: 19 ani 3 luni si 4 zile, 12 ore 15 minute 4 
+secunde).  Afisajul varstei se va actualiza la fiecare secunda.
+(1 p)
+------------------> DONE (la pagina care duce catre quiz)
+
+
+			TOTAL: 3p
+
+
+
+21. Codul Morse (https://en.wikipedia.org/wiki/Morse_code). Intr-un camp de pe site (de exemplu, un textarea) 
+utilizatorul poate completa, folosind codul morse. Clickuri rapide pe textarea ar insemna semnale scurte 
+(se face mousedown si imediat mouse up, tipul intre cele doua evenimente trebuie sa fie sub 1 secunda). 
+Un semnal lung ar insemna o pauza intre 1 si 3 secunde intre mousedown si mouseup. In cazul in care pauza 
+depaseste 3 secunde se ignora semnalul. Dupa ce s-au generat suficiente semnale cat sa se afiseze un caracter, 
+acesta apare in textarea. Textarea-ul nu poate fi modificat prin apasare de caractere chiar daca utilizatorul 
+e focusat pe el. Textarea-ul va avea si un buton de reset care va sterge continutul, un buton prin care poate 
+sa ignore ultimele semnale de la scrierea unui caracter in text area (practic urmatorul semnal marcheaza 
+inceputul identificarii unei litere noi), dar si un buton de stergere a ultimului caracter.
+(1.5 p)
+
+
+5. Inversare lista. La dubluclick pe o lista existenta in pagina, sa se afiseze elementele ei in ordine inversa.
+(0.5)
+
+
+
+
+
+
+4. Timp petrecut pe pagina. Folosind localStorage sa se afiseze pe fiecare pagina (de exemplu in footer) numarul 
+de minute si secunde petrecute in total (pe parcursul tuturor vizitarilor) de un utilizator pe pagina curenta 
+(se va afisa pe fiecare pagina a site-ului). Afisajul se va actualiza la fiecare secunda.. Realizati taskul folosind 
+aceeasi functie pentru toate paginile.
+(1 p)
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include('../template/head')-%>
+
+  <style>
+    h5 {
+      text-align: center;
+    }
+
+    p {
+      color: #1a1a00;
+    }
+  </style>
+</head>
+
+<body>
+  <%- include('../template/dropdown')-%>
+  <h1>Contact</h1>
+  <div class="navigation-primary">
+    <ul id="List01">
+      <li ondblclick="reverse()" id="L01"><h3>Telephone:</h3> <strong>
+          <p id="demo"></p>
+        </strong>
+      <li ondblclick="reverse()" id="L02"><h3>Email Adress:</h3> <strong>
+          <p id="demo1"></p>
+        </strong>
+      <li ondblclick="reverse()" id="L03"><h3>HQ Adress:</h3> <strong>
+          <p id="demo2"></p>
+        </strong>
+    </ul>
+  </div>
+
+  <%- include('../template/footer')-%>
+  <script src="js/myscriptContact.js"></script>
+</body>
+
+</html>

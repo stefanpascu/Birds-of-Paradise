@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include('../template/head')-%>
+</head>
+
+<body>
+  <%- include('../template/dropdown')-%>
+
+  <h1><strong>Quiz</strong></h1>
+  <h2>Instructions</h2>
+  <h3>This page brings you a quiz which will show if you were able to understand and memorise basic caracteristics and
+    traits belonging to the Birds of Paradise.</h3>
+  <h3>We prepared a set of questions with different values of points which will tell you in the end a percentage from 0
+    (the lowest) to 100 (the highest).<br />
+    You will be granted 5 minutes to answer all the questions. Once the time runs out, the page will automatically
+    finish the test.</h3>
+
+  <h3>Select your gender: <span id="selGen"></span></h3>
+  <br>
+  <h3>Write your date of birth:</h3>
+  <span id="birthDate"></span>
+  <button type="button" id="ageButton">Confirm</button>
+
+  <br>
+  <span id="age"></span>
+  <h3>Write your name:</h3>
+
+  <span id="textArea1"></span>
+  <h3>When you are ready, click the button bellow to start the quiz.</h3>
+  <button onclick="startTest()">Start Quiz</button>
+
+  <%- include('../template/footer')-%>
+  <script src="js/myscriptQuiz.js"></script>
+</body>
+</html>
